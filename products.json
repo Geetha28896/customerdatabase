@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "687281a6-e845-4b6a-bb57-78afdeade57e",
+    "product_name": "CPU",
+    "price": 4000.9,
+    "available_quantity": 14,
+    "description": "Assembled Intel Core 2 Duo (4 GB DDR2/500 GB/Windows 7 Ultimate/15.1 Inch Screen/ASZC2D5004GB)",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 2022"
+    ]
+  },
+  {
+    "productId": "87f2d2bb-526e-43d0-aa22-52fea53112a0",
+    "product_name": "Laptop",
+    "price": 85000.5,
+    "available_quantity": 18,
+    "description": "Dell,color-Grey, intel core i5",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 50%"
+    ]
+  }
+]
