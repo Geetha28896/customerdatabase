@@ -1,0 +1,50 @@
+[
+  {
+    "productId": "687281a6-e845-4b6a-bb57-78afdeade57e",
+    "product_name": "CPU",
+    "price": 4000.9,
+    "available_quantity": 14,
+    "description": "Assembled Intel Core 2 Duo (4 GB DDR2/500 GB/Windows 7 Ultimate/15.1 Inch Screen/ASZC2D5004GB)",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 2022"
+    ]
+  },
+  {
+    "productId": "87f2d2bb-526e-43d0-aa22-52fea53112a0",
+    "product_name": "Laptop",
+    "price": 85000.5,
+    "available_quantity": 3,
+    "description": "Dell,color-Grey, intel core i5",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 50%"
+    ]
+  },
+  {
+    "productId": "14806cac-ba89-450b-a80e-e91ea79c4e57",
+    "product_name": "keyboard",
+    "price": 500,
+    "available_quantity": 30,
+    "description": "Zeb-4, color-black, keyboard-External",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 50%"
+    ]
+  },
+  {
+    "productId": "8b669d72-fca6-4b33-9a42-671c6d9aaba0",
+    "product_name": "keyboard",
+    "price": 500,
+    "available_quantity": 30,
+    "description": "Zeb-4, color-black, keyboard-External",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 50%"
+    ]
+  }
+]
