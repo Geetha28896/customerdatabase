@@ -1,6 +1,6 @@
 [
   {
-    "userId": 104,
+    "userId": 101,
     "orderId": 4,
     "productId": "87f2d2bb-526e-43d0-aa22-52fea53112a0",
     "quantity": 1,
@@ -22,21 +22,5 @@
     "quantity": 2,
     "timeStamp": "2022/09/13:06:42:55",
     "orderPrice": "170001.00"
-  },
-  {
-    "userId": 104,
-    "orderId": 5,
-    "productId": "87f2d2bb-526e-43d0-aa22-52fea53112a0",
-    "quantity": 3,
-    "timeStamp": "2022/09/19:11:48:26",
-    "orderPrice": "255001.50"
-  },
-  {
-    "userId": 104,
-    "orderId": 6,
-    "productId": "87f2d2bb-526e-43d0-aa22-52fea53112a0",
-    "quantity": 3,
-    "timeStamp": "2022/09/19:11:50:50",
-    "orderPrice": "255001.50"
   }
 ]

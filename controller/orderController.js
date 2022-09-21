@@ -140,12 +140,15 @@ exports.allUserDetails = function (req, res) {
         const objProduct = JSON.parse(data);
         const userData = objOrder.filter((data) => data.userId == id);
 
-        let total = 0;
+        //whenever we want total history of the user can check by here
+       
+        /* let total = 0;
         let result = 0;
         for (let i = 0; i < userData.length; i++) {
           total = total + Number(userData[i].orderPrice);
           result = Number.parseFloat(total).toFixed(2);
         }
+        */
         let userProductDetails = userData.map((userProduct) => {
           userProduct.productDetails = objProduct.find((prod) => {
             if (prod.productId == userProduct.productId) {
@@ -155,7 +158,7 @@ exports.allUserDetails = function (req, res) {
           return userProduct;
         });
 
-        userProductDetails.push("TotalBillAmount= " + result);
+        //userProductDetails.push("TotalBillAmount= " + result)
         //console.log(userProductDetails.length+"val");
         if (userProductDetails.length == 0)
           return res.send(

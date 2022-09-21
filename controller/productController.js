@@ -21,28 +21,20 @@ exports.createProducts = function (req, res) {
   try {
     const id = uuid4();
 
-    // const { product_name, price, available_quantity, description, offers } =
-    //   req.body;
-
     //console.log(Object.getOwnPropertyNames(req.body).length + "req");
 
     //console.log(req.body+"reqBody");
-    
 
     if (Object.getOwnPropertyNames(req.body).length != 5)
       return res
         .status(400)
         .send("The Request field does not Match please Enter valid Input!");
-    //console.log(req.body+"reqBody");
-    
-        // const { error }=utils.validateTask1(req.body);
-        // if(error) return res.status(400).send('The Request field does not Match please Enter valid Input!')
-        
-
+    // const { error }=utils.validateTask1(req.body);
+    // if(error) return res.status(400).send('The Request field does not Match please Enter valid Input!')
     const myProduct = {
       productId: id,
-      product_name:req.body.product_name,
-      price:req.body.price,
+      product_name: req.body.product_name,
+      price: req.body.price,
       available_quantity: req.body.available_quantity,
       description: req.body.description,
       offers: req.body.offers,
@@ -58,9 +50,8 @@ exports.createProducts = function (req, res) {
         JSON.stringify(object, null, 2),
         function (err) {
           if (err) return console.log(err);
-          //console.log(object+"expect");
           res.status(200).send(object);
-         // res.send("Products added successfully!!");
+          //res.send("Products added successfully!!");
           res.end();
         }
       );
