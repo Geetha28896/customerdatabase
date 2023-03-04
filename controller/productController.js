@@ -10,6 +10,8 @@ exports.getProducts = function (req, res) {
       if (err) return console.log(err);
 
       let products = JSON.parse(data);
+      //let result=products.product_name;
+      //console.log(JSON.parse(result));
 
       res.send(products);
     });

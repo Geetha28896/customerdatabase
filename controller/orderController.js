@@ -8,6 +8,7 @@ exports.getOrders = function (req, res) {
       if (err) return console.log(err);
 
       let orders = JSON.parse(data);
+      console.log(typeof orders);
       res.send(orders);
     });
   } catch (e) {
@@ -115,6 +116,7 @@ exports.getOrdersByID = function (req, res) {
     let id = req.params.id;
     fs.readFile("orders.json", "utf-8", function (err, data) {
       let object = JSON.parse(data);
+      console.log(typeof object);
       let ordersId = object.filter((data) => data.userId == id);
       //console.log(ordersId);
 
@@ -149,6 +151,7 @@ exports.allUserDetails = function (req, res) {
           result = Number.parseFloat(total).toFixed(2);
         }
         */
+       console.log("typeof "+typeof userData)
         let userProductDetails = userData.map((userProduct) => {
           userProduct.productDetails = objProduct.find((prod) => {
             if (prod.productId == userProduct.productId) {

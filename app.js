@@ -11,14 +11,13 @@ const orderController=require('./controller/orderController');
 
 const app=express();
 
-const port=3000;
+const port=5000;
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 //products api 
 app.get('/products',productController.getProducts)
-
 app.post('/products',productController.createProducts);
 
 //Order APIs

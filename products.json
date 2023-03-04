@@ -3,8 +3,8 @@
     "productId": "687281a6-e845-4b6a-bb57-78afdeade57e",
     "product_name": "CPU",
     "price": 4000.9,
-    "available_quantity": 50,
-    "description": "Assembled Intel Core 2 Duo (4 GB DDR2/500 GB/Windows 7 Ultimate/15.1 Inch Screen/ASZC2D5004GB)",
+    "available_quantity": 47,
+    "description": "Assembled Intel Core 2 Duo (4 GB DDR2/500 GB/Windows 7 Ultimate/15.1 Inch Screen/2D5004GB)",
     "offers": [
       "First User Offers: 20%",
       "Sunday Offers: 10%",
@@ -17,6 +17,18 @@
     "price": 85000.5,
     "available_quantity": 50,
     "description": "Dell,color-Grey, intel core i5",
+    "offers": [
+      "First User Offers: 20%",
+      "Sunday Offers: 10%",
+      "Great Indian Festival Sale Offers 50%"
+    ]
+  },
+  {
+    "productId": "7e76f2fa-a703-41f5-9389-0b2bebe85866",
+    "product_name": "keyboard",
+    "price": 500,
+    "available_quantity": 30,
+    "description": "Zeb-4, color-black, keyboard-External",
     "offers": [
       "First User Offers: 20%",
       "Sunday Offers: 10%",
