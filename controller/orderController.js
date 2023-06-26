@@ -62,9 +62,9 @@ exports.createOrders = function (req, res) {
             (data) => data.productId == myOrders.productId
           );
 
-          // console.log(
-          //   objectProd[currIndexProd].available_quantity + "quantity"
-          // );
+          console.log(
+            objectProd[currIndexProd].available_quantity + "quantity"
+          );
 
           if (
             objectProd[currIndexProd].available_quantity >= myOrders.quantity
